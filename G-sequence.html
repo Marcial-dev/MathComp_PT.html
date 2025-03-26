@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comp-Math Group 1 PT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-image: url('MathsEquationsBackground.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 805px;
+            background-color: #A27B5C;
+            font-family: 'Arial', sans-serif;
+        }
+ }
+
+        .navbar {
+            background-color: #3F4F44;
+        }
+
+        .navbar-brand, .nav-link {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #A27B5C;
+            text-decoration: underline;
+        }
+        .problem {
+            margin-top: 70px;
+        }
+
+        tbody {
+            background-color: #DCD7C9;
+        }
+
+        th.p {
+            width: 40%;
+        }
+
+        th.s {
+            width: 30%;
+        }
+
+        th.f {
+            width: 20%;
+        }
+
+       
+        table {
+            font-size: 14px;
+            width: 60%; 
+            margin: 0 auto; 
+        }
+
+        .table-sm td,
+        .table-sm th {
+            padding: 0.25rem; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #3F4F44;">
+        <div class="container-fluid">
+            <a class="navbar-brand">SERVICE Group 1</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-expand-md">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mathcomppt.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="A-sequence.html">Arithmetic Sequence</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page">Geometric Sequence</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="H-sequence.html">Harmonic Sequence</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="F-sequence.html">Fibonacci Sequence</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="poly-1.html">Polynomial Expressions</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="poly-2.html">Polynomial Equations</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Table Content -->
+    <div class="container-fluid problem">
+        <div>
+            <table class="table table-striped table-hover">
+                <thead class="table-success">
+              <tr>
+            <th class="p">Problems</th>
+             <th class="s">Solutions</th>
+            <th class="f">Final Answers</th>
+                    </tr>
+                </thead>
+
+       <tbody>
+                    <tr>
+                        <td>
+                            <b>Mathematical Problem 1: Geometric Sequence</b><br>
+                            <b>Formula: an = a1r^n-1 </b><br>
+          • Ted was studying bacteria on the first day of school of the week, and noticed that there was a pattern in their behavior. On the first day of observation, the count of the bacteria was 6. By the second day, it had grown to 24. On the third day, the bacteria had grown to 96. Ted wants to study the growth of the bacteria and understand its patterns for a week. What would be the count of the bacteria next Monday?
+             </td>
+                        <td>
+                            <b>Given:</b><br>
+                            a1 = 6<br>
+                            r = 24 ÷ 6 = 4<br>
+                            n = 8<br><br>
+
+                            <b>Solution:</b><br>
+                            a8 = 6·4^8-1<br>
+                            a8 = 6·4^7<br>
+                            a8 = 6·16,384<br>
+                            a8 = 98,304<br>
+                        </td>
+                        <td>
+                            <b>• The bacteria would have grown to 98,304 by next Monday.</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Mathematical Problem 2: Geometric Series</b><br>
+                            <b>Formula: Sn = a1(1-r^n) / (1-r)</b><br>
+                            • A lawyer's salary doubles every year. If her salary in 2020 is Php100,000, how much would her salary be in 2025?
+                        </td>
+                        <td>
+                            <b>Given:</b><br>
+                            a1 = 100,000<br>
+            n = 6<br>
+                            r = 2<br><br>
+  <b>Solution:</b><br>
+                            100,000 (1 - 2^6) / (1 - 2)<br>
+                100,000 (-63) / -1<br>
+                            -6,300,000 / -1<br>
+                   a6 = 6,300,000<br>
+                        </td>
+        <td>
+                            <b>• The lawyer's salary would be Php6,300,000 by 2025.</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <b>Mathematical Problem 3: Geometric Mean</b><br>
+                <b>Formula: an = a1r^n-1 </b><br>
+                            • In a span of a rapid 8 seconds, a post about a famous celebrity dying has gone viral on social media, starting with only 6 views on the first second and 468,750 views on the 8th. How many views did the tragic social media post have 7 seconds after it was posted, calculating using the geometric mean?
+            </td>
+                        <td>
+                            <b>Given:</b><br>
+          a1 = 6<br>
+                            a8 = 468,750<br>
+              n = 8<br><br>
+
+              <b>Solution:</b><br>
+                            an = a1r^n-1<br>
+                            468,750 = 6r^8-1<br>
+                            468,750 / 6 = r^7<br>
+                            r = 5<br><br>
+                            6, 30, 150, 750, 3750, 18750, <b>93750</b>, 468750<br>
+                        </td>
+         <td>
+                            <b>• The social media post had 93,750 views 7 seconds after it was posted.</b>
+                </td>
+                    </tr>
+        </tbody>
+            </table>
+    </div>
+    </div>
+
+</body>
+
+</html>
